@@ -74,42 +74,7 @@ npm run preview
 
 ---
 
-## 📁 Project Directory Structure
 
-```text
-chromify/
-├── public/                     # Static assets & favicons
-├── src/
-│   ├── components/             # Reusable modular UI components
-│   │   ├── Navbar.jsx          # Shared responsive navigation bar
-│   │   ├── Footer.jsx          # Shared footer with navigation & links
-│   │   ├── HeroPalettePreview.jsx # Live 5-swatch interactive hero preview
-│   │   ├── FeatureCard.jsx     # Visual feature card with mini previews
-│   │   ├── StepCard.jsx        # Step card for How It Works section
-│   │   └── UseCaseCard.jsx     # Persona card for target use cases
-│   ├── data/                   # Structured content & mock datasets
-│   │   ├── features.js         # 6 core studio features
-│   │   ├── palettes.js         # Curated color palettes with contrast ratios
-│   │   ├── steps.js            # 4 workflow steps
-│   │   └── useCases.js         # Audience personas & benefits
-│   ├── pages/                  # Page routes
-│   │   ├── Home.jsx            # Complete Home landing page
-│   │   ├── StudioPlaceholder.jsx       # /studio route
-│   │   ├── AccessibilityPlaceholder.jsx# /accessibility route
-│   │   ├── FavoritesPlaceholder.jsx    # /favorites route
-│   │   └── GuidePlaceholder.jsx        # /guide route
-│   ├── App.jsx                 # Top-level router, layout & ScrollToTop
-│   ├── index.css               # Tailwind directives & custom utilities
-│   └── main.jsx                # Application entry point with BrowserRouter
-├── index.html                  # HTML entry point with Inter & JetBrains Mono
-├── package.json                # Project dependencies and npm scripts
-├── postcss.config.js           # PostCSS Tailwind plugins
-├── tailwind.config.js          # Tailwind theme & color extensions
-├── vite.config.js              # Vite configuration with React plugin
-└── README.md                   # Project documentation & execution guide
-```
-
----
 
 ## 🎨 Design Philosophy
 - **Modern SaaS Polish**: Inspired by top-tier creative tools (Linear, Figma, Raycast, Coolors).
